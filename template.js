@@ -1,3 +1,1 @@
-<script>
-    alert('concac')
-</script>>
+alert('concac')
