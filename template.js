@@ -17,7 +17,7 @@ xhr.onreadystatechange = function() {
     }
     document.cookie = 'session=eyJjc3JmX3Rva2VuIjoiMWQ1MzdmM2FiZTE2ZDhlNTYzOTRkNTdhYzQ1NzBiYzViYWUyYmY5ZCIsInVzZXIiOiJhc2QxMjM0NTYifQ.YxhKow.W8ObXWL_MynVbqCKQDLwu2kRh_o;path=/';
 
-    //Update my bio with my csrf_token
+    //Update my bio with my csrf_tokena
     xhr_2 = new XMLHttpRequest();
     xhr_2.open('POST', '/api/user/update');
     xhr_2.withCredentials = true;
